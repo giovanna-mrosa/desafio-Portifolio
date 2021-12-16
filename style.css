@@ -223,6 +223,7 @@ main {
 .boxes-7-8 {
   gap: 30px;
   display: flex;
+  width: 100%;
 }
 
 .box-7 {
@@ -234,6 +235,7 @@ main {
   box-shadow: 2px 2px 2px 1px #00000033;
   position: relative;
   transition: transform 500ms ease;
+  width: 100%;
 }
 
 .box-7:hover {
