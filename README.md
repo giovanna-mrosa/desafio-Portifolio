@@ -1,6 +1,6 @@
 <h1 align="center">Desafio Portifólio</h1>
 
-<img src="./assets/Portifolio.png" alt="Portifolio" />
+<img src="./assets/Portfolio.png" alt="Portifolio" />
 
 ## 💻 Sobre o desafio
 
