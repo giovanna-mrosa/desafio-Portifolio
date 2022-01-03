@@ -359,3 +359,18 @@ main {
   height: fit-content;
   clip-path: circle(50% at 50% 50%);
 }
+
+.more {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  transition: transform 500ms ease;
+}
+
+.more:hover {
+  transform: scale(1.01);
+}
