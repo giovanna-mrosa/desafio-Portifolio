@@ -374,3 +374,26 @@ main {
 .more:hover {
   transform: scale(1.01);
 }
+
+@media (max-width: 425px) {
+  main {
+    display: flow-root;
+  }
+  .boxes-7-8 {
+    flex-wrap: wrap;
+  }
+  .box-10 {
+    flex-wrap: wrap;
+  }
+  .post-texts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .hashtags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+  }
+}
